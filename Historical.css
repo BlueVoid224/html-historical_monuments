@@ -1,0 +1,92 @@
+#header {
+    padding: 12px;
+    padding-bottom: 4px;
+    border: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 20px;
+    border-color: rgb(53, 54, 54);
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 150px;
+    text-shadow: 50px;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(#e66465, #9198e5);
+}
+
+#footer {
+    padding: 12px;
+    padding-bottom: 4px;
+    border: 10px;
+    margin-left: 2px;
+    bottom: 0px;
+    border-radius: 20px;
+    border-color: rgb(53, 54, 54);
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 150px;
+    text-shadow: 50px;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(#e66465, #9198e5);
+}
+
+#body {
+    background-image: url(https://img.freepik.com/free-vector/colorful-ethnic-tiles-pattern_1159-2193.jpg?w=740&t=st=1660560803~exp=1660561403~hmac=674042b2e00821edfbdbbb31e0cbb2c94aa0fb0aa04dd8355e3dc652823d07a5);
+    background-size: auto;
+}
+
+.tajmahal {
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+.tajmahal {
+    background-color: #9198e5;
+    background-image: linear-gradient(red orange yellow);
+    color: aqua;
+}
+
+.gateway {
+    margin-top: 16px;
+    margin-left: 7px;
+    border-radius: 50px;
+}
+
+.qutub {
+    margin-top: 16px;
+    margin-left: 7px;
+    border-radius: 50px;
+}
+
+#r1c1 {
+    margin-top: 200px;
+}
+
+#maindiv {
+    margin-top: 3px;
+    display: grid;
+    grid-template-areas: "r1c1 r1c2 r1c3"
+        "r2c1 r2c2 r2c3"
+        "r3c1 r3c2 r3c3 "
+        "r4c1 r4c2 r4c3"
+        "r5c1 r5c2 r5c3"
+        "r6c1 r6c2 r6c3";
+
+}
+
+#maindiv>div {
+    padding: 10px;
+    margin: 15px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 50px;
+}
